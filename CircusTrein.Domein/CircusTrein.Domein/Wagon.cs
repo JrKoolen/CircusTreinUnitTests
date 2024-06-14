@@ -40,7 +40,7 @@ namespace CircusTrein.Domein
         {
             foreach (Animal anim in animals)
             {
-                if(anim.IsCarnivore)
+                if(anim.IsItACarnivore())
                 {
                     if(anim.GetSize() < animal.GetSize())
                     {
@@ -51,7 +51,7 @@ namespace CircusTrein.Domein
 
             foreach (Animal anim in animals)
             {
-                if (!anim.IsCarnivore)
+                if (!anim.IsItACarnivore())
                 {
                     return true;
                 }
@@ -80,7 +80,7 @@ namespace CircusTrein.Domein
         {
             foreach (var item in animals)
             {
-                if (item.IsCarnivore)
+                if (item.IsItACarnivore())
                 {
                     return item.GetSize();
                 }
