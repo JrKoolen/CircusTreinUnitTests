@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.unittests\\wagontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|solutionrelative:circustrein.unittests\\wagontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.unittests\\animalcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|solutionrelative:circustrein.unittests\\animalcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.unittests\\traintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|solutionrelative:circustrein.unittests\\traintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.unittests\\wagoncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1097E9F3-87FC-4EB6-A071-05A117E5C417}|CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj|solutionrelative:circustrein.unittests\\wagoncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.domein\\wagoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\wagoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.domein\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.domein\\wagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\wagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.domein\\herbivore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\herbivore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.domein\\carnivore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\carnivore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\circustrein.domein\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\circustrein.domein\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{211EED64-8350-4E51-B0BC-6E606069E1D0}|CircusTrein.Domein\\CircusTrein.Domein.csproj|solutionrelative:circustrein.domein\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\jeroe\\source\\repos\\circustrein.domein\\circustrein.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:circustrein.unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAEUTAAAAAAAAAAAmwGYTAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-14T15:51:50.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Carnivore.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Carnivore.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\Carnivore.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Carnivore.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\Carnivore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T15:23:18.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrainTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\TrainTests.cs",
+              "RelativeDocumentMoniker": "CircusTrein.UnitTests\\TrainTests.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\TrainTests.cs",
+              "RelativeToolTip": "CircusTrein.UnitTests\\TrainTests.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:36:41.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Train.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Train.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\Train.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Train.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\Train.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:16:03.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WagonControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\WagonControllerTests.cs",
+              "RelativeDocumentMoniker": "CircusTrein.UnitTests\\WagonControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\WagonControllerTests.cs",
+              "RelativeToolTip": "CircusTrein.UnitTests\\WagonControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:12:25.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Herbivore.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Herbivore.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\Herbivore.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Herbivore.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\Herbivore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:05:23.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\AnimalControllerTests.cs",
+              "RelativeDocumentMoniker": "CircusTrein.UnitTests\\AnimalControllerTests.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\AnimalControllerTests.cs",
+              "RelativeToolTip": "CircusTrein.UnitTests\\AnimalControllerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:00:28.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Wagon.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Wagon.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\Wagon.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Wagon.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\Wagon.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwDQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:45:19.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WagonTests.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\WagonTests.cs",
+              "RelativeDocumentMoniker": "CircusTrein.UnitTests\\WagonTests.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\WagonTests.cs",
+              "RelativeToolTip": "CircusTrein.UnitTests\\WagonTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:30:49.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WagonController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\WagonController.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\WagonController.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\WagonController.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\WagonController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:28:13.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\AnimalController.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\AnimalController.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\AnimalController.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\AnimalController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:44:49.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CircusTrein.UnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "CircusTrein.UnitTests\\UnitTest1.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:40:19.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Program.cs",
+              "RelativeDocumentMoniker": "CircusTrein.Domein\\Program.cs",
+              "ToolTip": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\Program.cs",
+              "RelativeToolTip": "CircusTrein.Domein\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T13:13:29.087Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
