@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj": {}
+    "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj": {
+    "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj",
+        "projectUniqueName": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj",
         "projectName": "CircusTrein.Domein",
-        "projectPath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj",
+        "projectPath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj",
         "packagesPath": "C:\\Users\\Jeroe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\obj\\",
+        "outputPath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jeroe\\AppData\\Roaming\\NuGet\\NuGet.Config",

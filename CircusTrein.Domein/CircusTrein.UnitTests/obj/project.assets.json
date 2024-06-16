@@ -1003,11 +1003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
       "projectName": "CircusTrein.UnitTests",
-      "projectPath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
+      "projectPath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Jeroe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jeroe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1024,8 +1024,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj": {
-              "projectPath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj"
+            "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj": {
+              "projectPath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj"
             }
           }
         }

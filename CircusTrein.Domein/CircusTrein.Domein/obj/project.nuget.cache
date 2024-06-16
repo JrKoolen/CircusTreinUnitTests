@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/WPwwVJsrAL2nkWacmFbWk+cTioAMBCNITpRhZ+q8Wi5jeSNtQmJm2DFqk/rbdwYqo880ziUx8uPJyw690qCJw==",
+  "dgSpecHash": "OIgSqLoFbusbQmKO9JF5eXZwOMj8m2KkpgnCQVk2qp5zqPK6Yqu4r4djbkKZa7qKwF/gQC2WLqIeNsnt9TUsfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj",
+  "projectFilePath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.Domein\\CircusTrein.Domein.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "di5l/PVYabn0oBk0Fsp2wpYFVm63fHHt90SAC6Ne0SfXfZtbpFNcnoW/MDTh2VckGYKNlIp+rMkr/Zdn7DHqcg==",
+  "dgSpecHash": "O9W4PCoH2Ar8jLj2jqBxNtlealpOl8ZpU+YC2RwTS4eHmhG8IqhuBwtLRII7NRY03pKjcD4a5MtK0QBvfwcCVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jeroe\\source\\repos\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jeroe\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Jeroe\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
