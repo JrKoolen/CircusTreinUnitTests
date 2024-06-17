@@ -46,4 +46,4 @@ jobs:
       run: |
         dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
         dotnet test --configuration Release --verbosity normal ./CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
-      working-directory: ./CircusTrein.Domein/CircusTrein.UnitTests
+      
