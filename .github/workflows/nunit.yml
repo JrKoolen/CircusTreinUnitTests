@@ -21,6 +21,9 @@ jobs:
       with:
         dotnet-version: '8.0.x'  # Ensure .NET 8.0 is compatible with Node.js 20
 
+    - name: Restore dependencies for Main Project
+      run: dotnet restore CircusTrein.Domein/CircusTrein.Domein.csproj
+
     - name: List directory contents
       run: |
         ls -lR  # List all files and directories recursively for verification
