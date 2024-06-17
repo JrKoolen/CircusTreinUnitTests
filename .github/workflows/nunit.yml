@@ -29,7 +29,7 @@ jobs:
       run: dotnet restore 
 
     - name: Test
-      run: dotnet test --configuration Release ./CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
+      run: dotnet test ./CircusTrein.UnitTests/CircusTrein.UnitTests.csproj --configuration Release 
 
     - name: Build Main Project
       run: dotnet build --configuration Release 
