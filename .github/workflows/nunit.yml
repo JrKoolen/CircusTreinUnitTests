@@ -40,7 +40,7 @@ jobs:
 
     - name: Test
       run: dotnet test --configuration Release ./CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
-      working-directory: ./CircusTrein.Domein/CircusTrein.UnitTests
+    
 
     - name: Build and Test Unit Tests
       run: |
