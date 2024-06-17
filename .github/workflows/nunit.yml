@@ -30,14 +30,11 @@ jobs:
 
     - name: Test
       run: dotnet test --configuration Release CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
-      working-directory: /github/workspace
 
     - name: Build Main Project
       run: dotnet build --configuration Release 
-      working-directory: /github/workspace
 
     - name: Build and Test Unit Tests
       run: |
         dotnet build --configuration Release 
         dotnet test --configuration Release --verbosity normal .
-      working-directory: /github/workspace
