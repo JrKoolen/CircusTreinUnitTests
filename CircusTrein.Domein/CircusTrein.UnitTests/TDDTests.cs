@@ -55,5 +55,15 @@ namespace CircusTrein.UnitTests
             //Assert
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Check_StringName_IsNotNull()
+        {
+            TDDObject tdd = new TDDObject(1);
+
+            string name = tdd.Name;
+
+            Assert.IsNotNull(name);
+        }
     }
 }

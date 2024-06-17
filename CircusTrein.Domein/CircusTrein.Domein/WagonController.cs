@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CircusTrein.Domein
+﻿namespace CircusTrein.Domein
 {
     public class WagonController
     {
