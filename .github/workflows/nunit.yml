@@ -10,23 +10,22 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest  # Use windows-latest for MSBuild on Windows
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1
       with:
-        submodules: true
+        dotnet-version: '6.x'  # Update to the version you are using
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein
 
     - name: Build
-      run: |
-        cd C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein
-        dotnet build --no-restore --configuration Release
+      run: dotnet build C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein --configuration Release
 
     - name: Test
-      run: |
-        cd C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein
-        dotnet test --no-build --verbosity normal --configuration Release
+      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein --configuration Release --verbosity normal
