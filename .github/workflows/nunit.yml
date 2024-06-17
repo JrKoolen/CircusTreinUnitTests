@@ -14,19 +14,19 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3  # Update to v3 for Node.js 20
+      uses: actions/checkout@v4  # Update to latest version of actions/checkout
       with:
-        submodules: true  # Example of a checkout option
+        submodules: true
 
     - name: Setup Node.js
-      uses: actions/setup-node@v3  # Update to v3 for Node.js 20
+      uses: actions/setup-node@v4  # Update to latest version of actions/setup-node
       with:
         node-version: '20'  # Set Node.js version to 20
 
     - name: Setup .NET Core
-      uses: actions/setup-dotnet@v3  # Update to v3 for Node.js 20
+      uses: actions/setup-dotnet@v4  # Update to latest version of actions/setup-dotnet
       with:
-        dotnet-version: '8.0.x'  # Ensure .NET 8.0 is compatible with Node.js 20
+        dotnet-version: '8.0.x'
 
     - name: Restore dependencies
       run: dotnet restore
