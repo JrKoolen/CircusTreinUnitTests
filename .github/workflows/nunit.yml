@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest  # Use windows-latest for MSBuild on Windows
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
@@ -21,11 +21,15 @@ jobs:
       with:
         dotnet-version: '6.x'  # Update to the version you are using
 
+    - name: List directory contents
+      run: |
+        dir /s /b  # List all files and directories recursively
+
     - name: Restore dependencies
-      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.UnitTests\CircusTrein.UnitTests.csproj
+      run: dotnet restore ./CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
 
     - name: Build
-      run: dotnet build C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.UnitTests\CircusTrein.UnitTests.csproj --configuration Release
+      run: dotnet build ./CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj --configuration Release
 
     - name: Test
-      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.UnitTests\CircusTrein.UnitTests.csproj --configuration Release --verbosity normal
+      run: dotnet test ./CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj --configuration Release --verbosity normal
