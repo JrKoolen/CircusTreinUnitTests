@@ -7,6 +7,12 @@
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
+
+    <!-- Suppress specific warnings here -->
+    <NoWarn>CS0168,CS0618</NoWarn>
+    <!-- Add any additional warning codes you want to suppress -->
+    <WarningsAsErrors></WarningsAsErrors>
+    <!-- Ensures no warnings are treated as errors -->
   </PropertyGroup>
 
   <ItemGroup>
