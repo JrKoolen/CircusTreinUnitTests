@@ -30,9 +30,11 @@ jobs:
       working-directory: ./CircusTrein.Domein
 
     - name: Build Main Project
-      run: dotnet build --configuration Release 
+      run: dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
+      working-directory: ./CircusTrein.Domein
 
     - name: Build and Test Unit Tests
       run: |
-        dotnet build --configuration Release 
-        dotnet test --configuration Release --verbosity normal .
+        dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
+        dotnet test --configuration Release --verbosity normal ./CircusTrein.Domein/CircusTrein.Domein.csproj
+      working-directory: ./CircusTrein.Domein
