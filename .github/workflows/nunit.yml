@@ -26,10 +26,10 @@ jobs:
         ls -lR  # List all files and directories recursively for verification
 
     - name: Restore dependencies
-      run: dotnet restore "C:/Users/Jeroe/source/repos/DefensieTrainer/CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.Domein.sln"
+      run: dotnet restore
 
     - name: Build
-      run: dotnet build "C:/Users/Jeroe/source/repos/DefensieTrainer/CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.Domein.sln" --configuration Release
+      run: dotnet build --configuration Release
 
     - name: Test
-      run: dotnet test "C:/Users/Jeroe/source/repos/DefensieTrainer/CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.Domein.sln" --configuration Release --verbosity normal
+      run: dotnet test --configuration Release --verbosity normal
