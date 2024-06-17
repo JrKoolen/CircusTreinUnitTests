@@ -26,16 +26,19 @@ jobs:
         ls -lR  # List all files and directories recursively for verification
 
     - name: Restore dependencies for Main Project
-      run: dotnet restore ./CircusTrein.Domein/CircusTrein.Domein.csproj
+      run: dotnet restore 
+      working-directory: /src
 
     - name: Test
       run: dotnet test --configuration Release CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
-      working-directory: /github/workspace
-      
+      working-directory: /src
+
     - name: Build Main Project
-      run: dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
+      run: dotnet build --configuration Release 
+      working-directory: /src
 
     - name: Build and Test Unit Tests
       run: |
-        dotnet build --configuration Release ./CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
-        dotnet test --configuration Release --verbosity normal ./CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
+        dotnet build --configuration Release 
+        dotnet test --configuration Release --verbosity normal .
+        working-directory: /src
