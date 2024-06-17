@@ -1,0 +1,15 @@
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\bin\Release\net8.0\CircusTrein.Domein.exe
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\bin\Release\net8.0\CircusTrein.Domein.deps.json
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\bin\Release\net8.0\CircusTrein.Domein.runtimeconfig.json
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\bin\Release\net8.0\CircusTrein.Domein.dll
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\bin\Release\net8.0\CircusTrein.Domein.pdb
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.AssemblyInfoInputs.cache
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.AssemblyInfo.cs
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.csproj.CoreCompileInputs.cache
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.sourcelink.json
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.dll
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\refint\CircusTrein.Domein.dll
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.pdb
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\CircusTrein.Domein.genruntimeconfig.cache
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Release\net8.0\ref\CircusTrein.Domein.dll

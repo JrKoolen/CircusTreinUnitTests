@@ -14,19 +14,19 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '6.x'  # Update to the version you are using
+        dotnet-version: '6.x'  
 
     - name: List directory contents
       run: |
         ls -lR  # List all files and directories recursively for verification
 
     - name: Restore dependencies
-      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein.sln
+      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein
 
     - name: Test
-      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein.sln --configuration Release --verbosity normal
+      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein --configuration Release --verbosity normal
