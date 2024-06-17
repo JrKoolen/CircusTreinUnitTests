@@ -14,6 +14,22 @@ jobs:
 
     steps:
     - name: Checkout code
-      run: echo "Hello World"
-      
+      uses: actions/checkout@v2
 
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '8.0.x'  
+
+    - name: List directory contents
+      run: |
+        ls -lR  # List all files and directories recursively for verification
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build  --configuration Release
+
+    - name: Test
+      run: dotnet test --configuration Release --verbosity normal
