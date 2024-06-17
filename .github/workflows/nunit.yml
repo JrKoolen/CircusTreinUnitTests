@@ -27,9 +27,11 @@ jobs:
 
     - name: Restore dependencies for Main Project
       run: dotnet restore ./CircusTrein.Domein/CircusTrein.Domein.csproj
-- name: Test
-  run: dotnet test --configuration Release CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
-  working-directory: /github/workspace
+
+    - name: Test
+      run: dotnet test --configuration Release CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
+      working-directory: /github/workspace
+      
     - name: Build Main Project
       run: dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
 
