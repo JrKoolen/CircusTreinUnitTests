@@ -1,4 +1,4 @@
-name: .NET Core Unit Tests
+name: .NET Core Build and Test
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  test:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,14 +19,17 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '6.x'  
+        dotnet-version: '8.0.x'  # Ensure .NET 8.0 is compatible with Node.js 20
 
     - name: List directory contents
       run: |
         ls -lR  # List all files and directories recursively for verification
 
     - name: Restore dependencies
-      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein.sln
+      run: dotnet restore "C:/Users/Jeroe/source/repos/DefensieTrainer/CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.Domein.sln"
+
+    - name: Build
+      run: dotnet build "C:/Users/Jeroe/source/repos/DefensieTrainer/CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.Domein.sln" --configuration Release
 
     - name: Test
-      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein.sln --configuration Release --verbosity normal
+      run: dotnet test "C:/Users/Jeroe/source/repos/DefensieTrainer/CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.Domein.sln" --configuration Release --verbosity normal
