@@ -19,7 +19,7 @@ jobs:
         submodules: true  # Example of a checkout option
 
     - name: Setup Node.js
-      uses: actions/setup-node@v2  # Update to v2 for Node.js 20
+      uses: actions/setup-node@v3  # Update to v3 for Node.js 20
       with:
         node-version: '20'  # Set Node.js version to 20
 
