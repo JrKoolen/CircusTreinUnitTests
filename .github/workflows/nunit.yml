@@ -26,7 +26,7 @@ jobs:
         ls -lR  # List all files and directories recursively for verification
 
     - name: Restore dependencies for Main Project
-      run: dotnet restore ./CircusTrein.Domein/CircusTrein.UnitTests.csproj
+      run: dotnet restore CircusTrein.UnitTests.csproj
 
     - name: Build Main Project
       run: dotnet build --configuration Release .CircusTrein.UnitTests.csproj
