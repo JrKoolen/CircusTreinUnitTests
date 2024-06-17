@@ -1,4 +1,3 @@
-
 name: .NET Core Build and Test
 
 on:
@@ -25,6 +24,7 @@ jobs:
     - name: List directory contents
       run: |
         ls -lR  # List all files and directories recursively for verification
+
     - name: Restore dependencies for Main Project
       run: dotnet restore ./CircusTrein.Domein/CircusTrein.Domein.csproj
       working-directory: ./CircusTrein.Domein
@@ -33,8 +33,12 @@ jobs:
       run: dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
       working-directory: ./CircusTrein.Domein
 
+    - name: Test
+      run: dotnet test --configuration Release ./CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
+      working-directory: ./CircusTrein.Domein/CircusTrein.UnitTests
+
     - name: Build and Test Unit Tests
       run: |
-        dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
-        dotnet test --configuration Release --verbosity normal ./CircusTrein.Domein/CircusTrein.Domein.csproj
-      working-directory: ./CircusTrein.Domein
+        dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
+        dotnet test --configuration Release --verbosity normal ./CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
+      working-directory: ./CircusTrein.Domein/CircusTrein.UnitTests
