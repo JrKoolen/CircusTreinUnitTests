@@ -27,7 +27,7 @@ jobs:
 
     - name: Restore dependencies for Main Project
       run: dotnet restore ./CircusTrein.Domein/CircusTrein.UnitTests.csproj
-      working-directory: ./CircusTrein.Domein
+      working-directory: ./CircusTrein.UnitTests
 
     - name: Build Main Project
       run: dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.UnitTests.csproj
@@ -37,4 +37,4 @@ jobs:
       run: |
         dotnet build --configuration Release ./CircusTrein.Domein/CircusTrein.Domein.csproj
         dotnet test --configuration Release --verbosity normal ./CircusTrein.Domein/CircusTrein.Domein.csproj
-      working-directory: ./CircusTrein.Domein
+      working-directory: ./CircusTrein.UnitTests
