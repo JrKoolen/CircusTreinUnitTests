@@ -24,7 +24,6 @@ jobs:
     - name: List directory contents
       run: |
         ls -lR  # List all files and directories recursively for verification
-      working-directory: /github/workspace
 
     - name: Restore dependencies for Main Project
       run: dotnet restore 
@@ -41,4 +40,4 @@ jobs:
       run: |
         dotnet build --configuration Release 
         dotnet test --configuration Release --verbosity normal .
-        working-directory: /github/workspace
+      working-directory: /github/workspace
