@@ -22,10 +22,10 @@ jobs:
         dotnet-version: '6.x'  # Update to the version you are using
 
     - name: Restore dependencies
-      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein
+      run: dotnet restore C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.UnitTests
 
     - name: Build
-      run: dotnet build C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein --configuration Release
+      run: dotnet build C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.UnitTests --configuration Release
 
     - name: Test
-      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein --configuration Release --verbosity normal
+      run: dotnet test C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.UnitTests --configuration Release --verbosity normal
