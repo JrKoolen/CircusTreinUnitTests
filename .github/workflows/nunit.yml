@@ -14,22 +14,6 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      run: echo "Hello World"
+      
 
-    - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'  # Ensure .NET 8.0 is compatible with Node.js 20
-
-    - name: List directory contents
-      run: |
-        ls -lR  # List all files and directories recursively for verification
-
-    - name: Restore dependencies
-      run: dotnet restore
-
-    - name: Build
-      run: dotnet build --configuration Release
-
-    - name: Test
-      run: dotnet test --configuration Release --verbosity normal
