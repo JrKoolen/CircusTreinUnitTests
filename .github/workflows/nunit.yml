@@ -24,6 +24,7 @@ jobs:
     - name: List directory contents
       run: |
         ls -lR  # List all files and directories recursively for verification
+      working-directory: /src
 
     - name: Restore dependencies for Main Project
       run: dotnet restore 
