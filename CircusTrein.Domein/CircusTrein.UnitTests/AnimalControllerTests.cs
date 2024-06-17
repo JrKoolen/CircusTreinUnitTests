@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace CircusTrein.UnitTests
 {
+    //coverlet .\CircusTrein.UnitTests.dll --target "dotnet" --targetargs "test"
     public class Tests
     {
         private AnimalController _animalFactory;
