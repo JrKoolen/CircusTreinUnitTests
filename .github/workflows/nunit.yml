@@ -23,7 +23,7 @@ jobs:
 
     - name: List directory contents
       run: |
-        dir /s /b  # List all files and directories recursively
+        dir /s /b  # List all files and directories recursively in Windows
 
     - name: Restore dependencies
       run: dotnet restore ./CircusTreinUnitTests/CircusTrein.Domein/CircusTrein.UnitTests/CircusTrein.UnitTests.csproj
