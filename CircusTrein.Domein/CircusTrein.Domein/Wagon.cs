@@ -1,4 +1,6 @@
-﻿namespace CircusTrein.Domein
+﻿using System.Diagnostics;
+
+namespace CircusTrein.Domein
 {
     public class Wagon
     {
@@ -40,7 +42,7 @@
                     }
                 }
             }
-
+            
             foreach (Animal anim in animals)
             {
                 if (!anim.IsItACarnivore())

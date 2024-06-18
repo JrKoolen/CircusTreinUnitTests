@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OTQLgDYZftjVxlOq/yw0PwbVxQAFm+XTVh602lci7ddv3qnyx4zK/OmRuQ9EdyXsIvPyLRT6tYZljMaEauuR6w==",
+  "dgSpecHash": "2RpnDR/pL8JsYlgjfn4i8lc8WB8tY0QabPo32VvyOIrK6SDq2wTWglB4e38rsmnIw6TH3O5nuFbBwpYo/Y39bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jeroe\\source\\repos\\DefensieTrainer\\CircusTreinUnitTests\\CircusTrein.Domein\\CircusTrein.UnitTests\\CircusTrein.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\Jeroe\\.nuget\\packages\\nunit\\3.14.0\\nunit.3.14.0.nupkg.sha512",
     "C:\\Users\\Jeroe\\.nuget\\packages\\nunit.analyzers\\3.9.0\\nunit.analyzers.3.9.0.nupkg.sha512",
     "C:\\Users\\Jeroe\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512",
+    "C:\\Users\\Jeroe\\.nuget\\packages\\opencover\\4.7.1221\\opencover.4.7.1221.nupkg.sha512",
     "C:\\Users\\Jeroe\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []

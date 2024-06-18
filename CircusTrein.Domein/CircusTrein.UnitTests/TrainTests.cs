@@ -3,7 +3,6 @@ using NUnit.Framework;
 
 namespace CircusTrein.UnitTests
 {
-    [TestFixture]
     public class TrainTests
     {
 

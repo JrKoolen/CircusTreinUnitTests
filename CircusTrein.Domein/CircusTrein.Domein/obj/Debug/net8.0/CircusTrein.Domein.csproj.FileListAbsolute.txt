@@ -21,6 +21,7 @@ C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Dom
 C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\CircusTrein.Domein.AssemblyInfoInputs.cache
 C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\CircusTrein.Domein.AssemblyInfo.cs
 C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\CircusTrein.Domein.csproj.CoreCompileInputs.cache
+C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\CircusTrein.Domein.sourcelink.json
 C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\CircusTrein.Domein.dll
 C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\refint\CircusTrein.Domein.dll
 C:\Users\Jeroe\source\repos\DefensieTrainer\CircusTreinUnitTests\CircusTrein.Domein\CircusTrein.Domein\obj\Debug\net8.0\CircusTrein.Domein.pdb
