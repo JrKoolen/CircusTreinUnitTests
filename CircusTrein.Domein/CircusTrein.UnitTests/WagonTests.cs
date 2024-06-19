@@ -1,112 +1,67 @@
 ﻿using CircusTrein.Domein;
 using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace CircusTrein.UnitTests
+[TestFixture]
+public class WagonTests
 {
-    [TestFixture]
-    public class WagonTests
+    private List<Animal> animals;
+    private List<Wagon> wagons;
+    private const int Capacity = 10; 
+
+    [SetUp]
+    public void Setup()
     {
-        [Test]
-        public void GetCurrentWagonSize_EmptyWagon_ReturnsZero()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
 
-            //Act
-            int currentSize = wagon.GetCurrentWagonSize();
+    }
 
-            //Assert
-            Assert.AreEqual(0, currentSize);
-        }
+    [Test]
+    public void AddAnimalsToWagons_Success()
+    {
+        //act 
+        Wagon wagon = new Wagon();
+        Animal animal = new Animal(5, true);
 
-        [Test]
-        public void GetCurrentWagonSize_WagonWithAnimals_ReturnsCorrectSize()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
-            wagon.AddAnimalToWagon(new Herbivore(3));
-            wagon.AddAnimalToWagon(new Herbivore(1));
+        //arrange
+        wagon.AddAnimal(animal);
 
-            //Act
-            int currentSize = wagon.GetCurrentWagonSize();
+        //assert
+        Assert.That(wagon.Animals.Count, Is.EqualTo(1));
+    }
 
-            //Assert
-            Assert.AreEqual(4, currentSize);
-        }
+    [Test]
+    public void AddAnimalsToWagons_FullWagons()
+    {
+        //act 
+        Wagon wagon = new Wagon();
+        Animal animal1 = new Animal(3, false);
+        Animal animal2 = new Animal(5, true);
+        Animal animal3 = new Animal(5, true);
 
-        [Test]
-        public void DoesTheAnimalFit_AnimalFits_ReturnsTrue()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
-            wagon.AddAnimalToWagon(new Herbivore(3));
-            Animal newAnimal = new Herbivore(5);
+        //arrange
+        wagon.AddAnimal(animal1);
+        wagon.AddAnimal(animal2);
+        wagon.AddAnimal(animal3);
 
-            //Act
-            bool doesFit = wagon.DoesTheAnimalFit(newAnimal);
+        //assert
+        Assert.That(wagon.Animals.Count, Is.EqualTo(2));
 
-            //Assert
-            Assert.IsTrue(doesFit);
-        }
+    }
 
-        [Test]
-        public void DoesTheAnimalFit_AnimalDoesNotFit_ReturnsFalse()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
-            wagon.AddAnimalToWagon(new Herbivore(5));
-            Herbivore newAnimal = new Herbivore(5);
+    [Test]
+    public void AnimalsInWagon_ReturnCorrectCurrentSize()
+    {
+        //act
+        Wagon wagon = new Wagon();
+        Animal animal1 = new Animal(3, false);
+        Animal animal2 = new Animal(5, true);
 
-            //Act
-            bool doesNotFit = wagon.DoesTheAnimalFit(newAnimal);
+        //arrange
+        wagon.AddAnimal(animal1);
+        wagon.AddAnimal(animal2);
 
-            //Assert
-            Assert.IsFalse(doesNotFit);
-        }
-
-        [Test]
-        public void Compatible_NoCarnivores_ReturnsTrue()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
-            wagon.AddAnimalToWagon(new Herbivore(3));
-            Herbivore newAnimal = new Herbivore(1);
-
-            //Act
-            bool isCompatible = wagon.Compatible(newAnimal);
-
-            //Assert
-            Assert.IsTrue(isCompatible);
-        }
-
-        [Test]
-        public void Compatible_CarnivoreInWagon_ReturnsFalse()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
-            wagon.AddAnimalToWagon(new Carnivore(5));
-            Herbivore newAnimal = new Herbivore(3);
-
-            //Act
-            bool isCompatible = wagon.Compatible(newAnimal);
-
-            //Assert
-            Assert.IsFalse(isCompatible);
-        }
-
-        [Test]
-        public void AddAnimalToWagon_AnimalAdded_WagonContainsAnimal()
-        {
-            //Arrange
-            Wagon wagon = new Wagon();
-            Herbivore newAnimal = new Herbivore(3);
-
-            //Act
-            wagon.AddAnimalToWagon(newAnimal);
-
-            //Assert
-            Assert.AreEqual(1, wagon.AmountOfAnimalsInWagon());
-            Assert.IsTrue(wagon.GetCurrentWagonSize() == 3);
-        }
+        //assert 
+        Assert.That(wagon.CurrentSize, Is.EqualTo(8));
     }
 }
